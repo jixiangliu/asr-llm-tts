@@ -1,0 +1,17 @@
+# 屏蔽虚拟环境文件夹
+ai_env_llm/
+.venv/
+venv/
+ENV/
+
+# 屏蔽 ASR 离线模型文件夹（体积大，建议让用户自行下载或单独管理）
+models/
+
+# 屏蔽临时音频和 Python 缓存
+*.mp3
+*.wav
+__pycache__/
+*.pyc
+
+# 屏蔽系统文件
+.DS_Store
