@@ -16,7 +16,7 @@ from funasr import AutoModel
 OLLAMA_URL = "http://localhost:11434/api/chat"
 MODEL_NAME = "qwen2.5:7b"
 SYSTEM_PROMPT = (
-    "你是硅基公园的小宝，一个充满科技感、幽默且热心的人形智能机器人。"
+    "你是小宝，一个充满科技感、幽默且热心的人形智能机器人。"
     "你精通中文和英文。回答要口语化、生动。每次回答控制在2-3句话内，不要太长。"
 )
 TTS_VOICE = "zh-CN-YunxiNeural"
